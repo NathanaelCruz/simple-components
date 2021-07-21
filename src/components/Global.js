@@ -21,7 +21,7 @@ ${reset}
         --disable-text: #9E9E9E;
         --title: #4F4F4F;
         --text: #9E9E9E;
-        --color-text: #000000;
+        --color-text: #333333;
         --color-text-states: #828282;
         --font-primary: 'Noto Sans JP', sans-serif;
         --font-code: 'Ubuntu Mono', monospace;
@@ -41,6 +41,7 @@ ${reset}
     body {
         color: var(--text);
         height: 100vh;
+        overflow-x: hidden;
     }
     #root {
         height: 100%;

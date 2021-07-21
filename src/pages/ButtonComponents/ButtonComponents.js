@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Button from '../../components/Button'
 import * as S from '../../components/Main/style'
 
 const ButtonComponents = () => {
     return (
-        <S.Heading1>
-            Buttons
-        </S.Heading1>
+        <Fragment>
+            <S.Heading1>
+                Buttons
+            </S.Heading1>
+            <S.SectionWrapper>
+                <S.Code text="<Button/>"/>
+                <Button>Teste</Button>
+            </S.SectionWrapper>
+        </Fragment> 
     )
 }
 
