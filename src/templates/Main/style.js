@@ -6,6 +6,7 @@ export const Main = styled.main `
     padding: 0 24px;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     grid-gap: 16px;
 
     @media(min-width: 900px) {
