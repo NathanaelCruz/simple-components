@@ -1,11 +1,9 @@
 import React from 'react'
-import * as S from '../../templates/Main/style'
+import Title from '../../components/Title'
 
 const InputComponents = () => {
     return(
-        <S.Heading1>
-            Inputs
-        </S.Heading1>
+        <Title text="Inputs"/> 
     )
 }
 

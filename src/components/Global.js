@@ -50,6 +50,7 @@ ${reset}
         @media(min-width: 900px) {
             display: grid;
             grid-template-columns: 20% 1fr;
+            grid-template-rows: 100% auto;
             grid-column-gap: 24px;
         }
     }

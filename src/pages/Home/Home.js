@@ -1,11 +1,9 @@
 import React from 'react'
-import * as S from '../../templates/Main/style'
+import Title from '../../components/Title'
 
 const Home = () => {
     return(
-        <S.Heading1>
-            Home
-        </S.Heading1>
+    <Title text="Home"/> 
     )
 }
 

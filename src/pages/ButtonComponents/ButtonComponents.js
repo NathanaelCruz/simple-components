@@ -1,17 +1,14 @@
 import React, { Fragment } from 'react'
 import Button from '../../components/Button'
-import * as S from '../../templates/Main/style'
+import Title from '../../components/Title'
+import TextCode from '../../components/TextCode'
 
 const ButtonComponents = () => {
     return (
         <Fragment>
-            <S.Heading1>
-                Buttons
-            </S.Heading1>
-            <S.SectionWrapper>
-                <S.Code text="<Button/>"/>
+                <Title text="Buttons"/> 
+                <TextCode text="<Button/>"/>
                 <Button>Teste</Button>
-            </S.SectionWrapper>
         </Fragment> 
     )
 }
