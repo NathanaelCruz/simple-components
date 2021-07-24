@@ -1,5 +1,5 @@
 import React from 'react'
-import * as S from '../../components/Main/style'
+import * as S from '../../templates/Main/style'
 
 const InputComponents = () => {
     return(

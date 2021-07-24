@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import Button from '../../components/Button'
-import * as S from '../../components/Main/style'
+import * as S from '../../templates/Main/style'
 
 const ButtonComponents = () => {
     return (

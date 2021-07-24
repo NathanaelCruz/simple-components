@@ -42,11 +42,16 @@ ${reset}
         color: var(--text);
         height: 100vh;
         overflow-x: hidden;
+        text-rendering: optimizeLegibility;
     }
     #root {
         height: 100%;
-        display: flex;
-        grid-gap: 16px;
+        
+        @media(min-width: 900px) {
+            display: grid;
+            grid-template-columns: 20% 1fr;
+            grid-column-gap: 24px;
+        }
     }
 `
 
