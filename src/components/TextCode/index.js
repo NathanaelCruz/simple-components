@@ -3,7 +3,7 @@ import * as S from './style'
 
 const CodeText = props => {
     return(
-        <S.Code color={props.color}>
+        <S.Code color={props.states}>
             {props.text}
         </S.Code>
     )

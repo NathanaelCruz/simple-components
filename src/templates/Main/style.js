@@ -12,7 +12,6 @@ export const Main = styled.main `
     @media(min-width: 900px) {
         grid-column: 2;
         padding: 24px;
-        display: block;
     }
 `
 
