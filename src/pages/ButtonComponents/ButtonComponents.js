@@ -12,6 +12,12 @@ const ButtonComponents = () => {
             <Wrapper>
             <Section>
                 <TextCode text=
+                    '<Button>Default</Button>'
+                />
+                <Button>Default</Button>
+            </Section>
+            <Section>
+                <TextCode text=
                     '<Button background="default" color="default">Default</Button>'
                 />
                 <Button background="default" color="default">Default</Button>
